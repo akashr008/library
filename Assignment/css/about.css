@@ -1,0 +1,44 @@
+.nav-item a:hover{
+    color:#089da1 !important;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px #089da1;
+    background-color: black;
+    position: fixed;  
+}
+section nav .log{
+margin-left: 2%;
+}
+body{
+    background-image: url(image/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+}
+.txtform{
+    margin-top: 5%;
+}
+.txtform .row .txtgrp{
+    margin-top: 12%;
+
+}
+.m1{
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.m1 .main_btn{
+    background-color: #089da1;
+    padding: 3px 8px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,84 @@
+.nav-item a:hover{
+    color:#089da1 !important;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px #089da1;
+    background-color: black;
+    position: fixed;  
+}
+section nav .log{
+margin-left: 2%;
+}
+.txtform{
+    margin-top: 5%;
+}
+.txtform .row .txtgrp{
+    margin-top: 12%;
+
+}
+.main_tag{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.main_tag h3 span{
+     color: #089da1;
+}
+.main_tag .main_btn{
+    background-color: #089da1;
+    padding: 3px 8px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+
+}
+.carousel{
+    margin-top: 50px;
+}
+.footer {
+    background-color: #7b7b7b;
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .contact-info {
+        margin-top: 15px;
+    }
+}
